@@ -1,0 +1,138 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    color: white;
+    background-color: #202731;
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.blue {
+    background: #3c31dd;
+    padding-bottom: 0;
+}
+
+.red {
+    background: #dd3f31;
+}
+
+.pink {
+    background: #ff0066;
+}
+
+.dark {
+    background: #0f0f10;
+    /* padding: 0; */
+}
+
+.curve {
+    position: absolute;
+    height: 225px;
+    width: 100px;
+    bottom: 0;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 224px;
+}
+
+.wave .shape-fill {
+    fill: #DD3F31;
+}
+
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 296px;
+}
+
+.wave2 .shape-fill {
+    fill: #3C31DD;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url(./layered-waves-haikei\ \(3\).svg);
+}
+
+.blob {
+    aspect-ratio: 960/300;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200%;
+    padding: 50px;
+}
+
+
+/* .layer2 {
+    background-image: url(/blob-scene-haikei.svg);
+} */
+
+/* .curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #dd3f31;
+    transform: translate(85%, 60%);
+}
+
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: green;
+    transform: translate(-4%, 40%);
+    z-index: -1;
+} */
